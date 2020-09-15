@@ -3,7 +3,7 @@ import pymongo
 import myBFS
 
 
-client = pymongo.MongoClient('mongodb+srv://Daniel:4yjqRA9z7CduBMD@cluster0.pugkn.mongodb.net/test')
+client = pymongo.MongoClient('mongodb+srv://<username>:<password>@cluster0.pugkn.mongodb.net/test')
 
 app = Flask(__name__)
 
