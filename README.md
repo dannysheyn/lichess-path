@@ -1,10 +1,10 @@
 # lichess-path
 <a href="https://www.lichess-path.online/">The Lichees-Path Site</a> <br>
 <h4>How to use the site? </h4>
-<p>Just enter your lichess handle,(if you dont have one you can use my handle 'sheynan' or, go to the lichess site and find an active user name handle and enter it into the website)
-  <img src="https://github.com/dannysheyn/lichess-path/blob/master/Capture.PNG" width="400" height="200">
+<p>Just enter your lichess handle,(if you dont have one you can use my handle 'sheynan' or, go to the lichess site and find an active user name handle and enter it into the website)<br>
+  <img src="https://github.com/dannysheyn/lichess-path/blob/master/Capture.PNG" width="400" height="200"><br>
 
-  and you will get your chain of win to Magnus Carlsen!
+  and you will get your chain of win to Magnus Carlsen!<br>
   
   <img src="https://github.com/dannysheyn/lichess-path/blob/master/Capture2.PNG" width="400" height="200">  </p>
   
