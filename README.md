@@ -19,7 +19,7 @@ me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who w
     "Users_Won_Count": 16,
     "Distance": 5
 }
-  </pre></p>
+</pre>
 . and about 30 million games. each player has a 'Distance' property, that indicates how many degrees are from you to Magnus.
-The distribution of the 'Distance' property is as followin
+The distribution of the 'Distance' property is as followin</p>
 
