@@ -1,13 +1,19 @@
 # lichess-path
 <a href="https://www.lichess-path.online/">The Lichees-Path Site</a> <br>
-<h4>How to use the site? </h4><br>
-<p>Just enter your lichess handle,(if you dont have one you can use mine or, go to the lichess site and find an active user name handle and enter it into the website)<br>
-  and you will get your chain of win to Magnus Carlsen</p>
+<h4>How to use the site? </h4>
+<p>Just enter your lichess handle,(if you dont have one you can use my handle 'sheynan' or, go to the lichess site and find an active user name handle and enter it into the website)
+  <img src="https://github.com/dannysheyn/lichess-path/blob/master/Capture.PNG" width="400" height="200">
+
+  and you will get your chain of win to Magnus Carlsen!
+  
+  <img src="https://github.com/dannysheyn/lichess-path/blob/master/Capture2.PNG" width="400" height="200">  </p>
+  
+ <p> 
 The purpose of this project is to find for every user in lichess, his path of victory to magnus carlsen aka DrNykterstein.<br>
 What is a path?<br>
 a path is a chain of wins from you (the lichess user) to magnus carlsen.<br>
 I.E: <br>
-me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who won 'isitajoke', who won 'Zhalmakhanov_R', who won 'DrNykterstein'.<br>
+me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who won 'isitajoke', who won 'Zhalmakhanov_R', who won 'DrNykterstein'.</p>
 
 <h1>Building the data base</h1>
 <p>Building the data base was the hardest part of this project. the lichess database file was 114GB and most of that data was going to be parsed, doing so in an    efficient manner is not an easy task.<br>
