@@ -1,2 +1,10 @@
 # lichess-path
-This project i will find for every user in lichess his path of victory to magnus carlsen aka DrNykterstein
+<a href="https://www.lichess-path.online/">The Lichees-Path Site</a> 
+The purpose of this project is to find for every user in lichess, his path of victory to magnus carlsen aka DrNykterstein.
+What is a path?
+a path is a chain of wins from you (the lichess user) to magnus carlsen.
+I.E: 
+me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who won 'isitajoke', who won 'Zhalmakhanov_R', who won 'DrNykterstein'.
+
+<h1>Building the data base</h1>
+
