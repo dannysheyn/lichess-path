@@ -8,7 +8,7 @@ me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who w
 
 <h1>Building the data base</h1>
 <p>I parsed the lichess data base, and added about 550,000 users to my mongoDB.
-  each user in the data base is in te form of:</p><br>
+  each user in the data base is in te form of:<br>
   <code>
   {<br>
     "_id": {<br>
@@ -19,7 +19,7 @@ me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who w
     "Users_Won_Count": 16,
     "Distance": 5
 }
-  </code>
+  </code></p>
 . and about 30 million games. each player has a 'Distance' property, that indicates how many degrees are from you to Magnus.
 The distribution of the 'Distance' property is as followin
 
