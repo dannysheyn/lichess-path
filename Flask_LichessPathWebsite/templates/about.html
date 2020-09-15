@@ -1,0 +1,127 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>About Page</h1>
+<p>Hi, my name is Daniel and i tried to find the path from me to magnus carlsen, who is world chess champion.<br>
+what is a path?<br>
+    a path is a chain of wins, from me to magnus that every link of the chain is a game won.
+    </p>
+    <p>
+    Example: <br>
+    sheynan -> renkum79 -> arashtash1976 -> isitajoke -> Zhalmakhanov_R -> DrNykterstein
+    sheynan won renkum79, who won arashtash1976, who won isitajoke, who won Zhalmakhanov_R, who won
+    DrNykterstein. (magnus carlsen)
+</p>
+
+<h2>The Data Set</h2>
+<p>I parsed the lichess data base (can be found <a href="https://database.lichess.org/">here</a>)
+ and added about 550,000 users. and about 30 million games. each player has a 'Distance' property, that indicates how many degrees are from you to Magnus.
+    <br>The distribution of the 'Distance' property is as following:
+     <table style="width:100%">
+  <tr>
+    <th>Distance from magnus</th>
+    <th>number of users</th>
+    <th>% of the whole users</th>
+  </tr>
+  <tr>
+        <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>0.000%</td>
+        </tr>
+        <tr>
+        <td>1</td>
+        <td>111</td>
+        <td>0.021%</td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>15876</td>
+        <td>2.986%</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>38150</td>
+        <td>7.176%</td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td>138849</td>
+        <td>26.118%</td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>205223</td>
+        <td>38.604%</td>
+        </tr>
+        <tr>
+        <td>6</td>
+        <td>106658</td>
+        <td>20.063%</td>
+        </tr>
+        <tr>
+        <td>7</td>
+        <td>21170</td>
+        <td>3.982%</td>
+        </tr>
+        <tr>
+        <td>8</td>
+        <td>3655</td>
+        <td>0.688%</td>
+        </tr>
+        <tr>
+        <td>9</td>
+        <td>1080</td>
+        <td>0.203%</td>
+        </tr>
+        <tr>
+        <td>10</td>
+        <td>475</td>
+        <td>0.089%</td>
+        </tr>
+        <tr>
+        <td>11</td>
+        <td>218</td>
+        <td>0.041%</td>
+        </tr>
+        <tr>
+        <td>12</td>
+        <td>93</td>
+        <td>0.017%</td>
+        </tr>
+        <tr>
+        <td>13</td>
+        <td>30</td>
+        <td>0.006%</td>
+        </tr>
+        <tr>
+        <td>14</td>
+        <td>15</td>
+        <td>0.003%</td>
+        </tr>
+        <tr>
+        <td>15</td>
+        <td>6</td>
+        <td>0.001%</td>
+        </tr>
+        <tr>
+        <td>16</td>
+        <td>3</td>
+        <td>0.001%</td>
+        </tr>
+        <tr>
+        <td>17</td>
+        <td>0</td>
+        <td>0.000%</td>
+        </tr>
+        <tr>
+        <td>Total</td>
+        <td>531613</td>
+        <td>100%</td>
+        </tr>
+</table>
+</p>
+<p>
+    I hope i will have the time to expand this project. <br>
+    <a href="https://github.com/dannysheyn/lichess-path">This project on github</a>
+</p>
+{% endblock content %}

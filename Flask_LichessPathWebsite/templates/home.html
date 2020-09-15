@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<p>To find the path to magnus, please enter your lichess user name and press go.</p>
+
+<form action="/index" method="post">
+  <label for="username">User Name:</label>
+  <input type="text" id="UserName" name="UserName">
+    <button type="submit" onclick="/index" formmethod="post" class="btn btn-primary">GO!</button>
+</form>
+<br><br>
+<p>Please visit the About page for more information about the project.</p>
+{% endblock content %}
