@@ -16,7 +16,7 @@ I.E: <br>
 me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who won 'isitajoke', who won 'Zhalmakhanov_R', who won 'DrNykterstein'.</p>
 
 <h1>Building the data base</h1>
-<p>Building the data base was the hardest part of this project. the lichess database file was 114GB and most of that data was going to be parsed, doing so in an    efficient manner is not an easy task.<br>
+<p>Building the data base was the hardest part of this project. the lichess database file was 114GB and most of that data was going to be parsed, doing so in an    efficient manner is not an easy task. For this task i used the MongoDB using the pymongo module <br>
   I parsed the lichess data base, and added about 550,000 users to my mongoDB. That took about 30 million to parse. <br>
   The the scripts that filled the data-base will be in a folder named : "LichessMongoDB" which you could view the source code over there.
   Each user in the data base is in te form of:<br>
@@ -32,8 +32,7 @@ me, 'sheynan' (my lichess handle) won 'renkum79', who won 'arashtash1976', who w
 }
 </pre>
 
-The 'Distance' property, indicates how many degrees the player is from Magnus Carlsen.
-The distribution of the 'Distance' property is as followin</p>
+The 'Distance' property, indicates how many degrees the player is from Magnus Carlsen. (you can see the distribution at the site.
+</p>
 
 
-<h2></h2>
